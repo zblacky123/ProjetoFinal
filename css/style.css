@@ -1,0 +1,248 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+ /* Header */
+
+header{
+    background-color: black; 
+    display: flex; 
+    justify-content: center; 
+    align-items: top; 
+    padding: 10px;
+}
+
+/* Divisora */
+
+.divisora{
+  width: 100%;
+  height: 10px;
+  background-color: #555555;
+  margin-bottom: 20px;
+
+}
+
+.divisora-header{
+  width: 100%;
+  height: 10px;
+  background-color: #555555;
+  margin-bottom: 20px;
+
+}
+
+/* Banners */
+
+.ad-banner{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+/* Camisas */
+
+.h2-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font: 700;
+  font-style: italic;
+}
+
+ /* Barra de Navegação */
+
+nav{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+a.a-nav{
+    color: white; 
+    font-weight: bold;  
+    text-decoration: none; 
+    font-size: 1.5em;
+}
+
+a img.a-logo{ 
+    font-weight: bold; 
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+nav a:hover{
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+/* Container */
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center;
+}
+
+/* Carousel */
+
+.carousel{
+    width: 1200px;
+    height: 400px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin: 0;
+    
+  }
+
+  img.img-item{
+    width: 100%;
+    height: 400px;
+  }
+
+  .carusel-control-prev, .carusel-control-next{
+    background-color: black;
+  }
+
+ /* Card */
+
+ .card-teste {
+  width: 210px;
+  height: 160px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-teste * {
+  transition: 0.3s ease all;
+}
+
+.card-teste img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-teste .focus-content {
+  display: block;
+  padding: 8px 12px;
+}
+
+.card-teste p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.card-teste:hover img, .card-teste:focus-within img {
+  margin-top: -80px;
+}
+
+.grid-container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: grid; 
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 30px;
+}
+
+.grid-container-calca{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: grid; 
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+
+.b8:hover{
+  background-image: url("../imgs/Calca-Berma/ShortNikeSportwearTras.png");
+}
+
+  /* Footer */
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+  }
+
+/* Responsividade Geral */
+
+@media screen and (max-width: 320px){
+  body{
+    width: 280px;
+  }
+  .grid-container{
+    gap: 60px;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body{
+    width: 600px;
+  }
+  .grid-container{
+    gap: 60px;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 992px){
+  body{
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  body{
+    width: 940px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  body{
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  body{
+    width: 1519px;
+  }
+}

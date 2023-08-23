@@ -1,0 +1,245 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Header */
+
+header{
+  background-color: black; 
+  display: flex; 
+  justify-content: center; 
+  align-items: top; 
+  padding: 10px;
+}
+  
+  /* Barra de Navegação */
+  
+  nav{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+a.a-nav{
+    color: white; 
+    font-weight: bold;  
+    text-decoration: none; 
+    font-size: 1.5em;
+}
+
+a img.a-logo{ 
+    font-weight: bold; 
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+nav a:hover{
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+
+/* Card */
+
+.card-teste {
+    width: 220px;
+    height: 310px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .card-teste * {
+    transition: 0.3s ease all;
+  }
+
+  .grid-item{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+ .g1{
+    background-image: url("../imgs/Galeria/bielBranVerF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g1:hover, .g1.focus-within:hover {
+    background-image: url("../imgs/Galeria/bielBranVerC.png");
+    margin-top: -80px;
+  }
+
+  .g2{
+    background-image: url("../imgs/Galeria/bielBrasilF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g2:hover, .g2.focus-within:hover {
+    background-image: url("../imgs/Galeria/bielBrasilC.png");
+    margin-top: -80px;
+  }
+
+  .g3{
+    background-image: url("../imgs/Galeria/BielRoxoF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g3:hover, .g3.focus-within:hover {
+    background-image: url("../imgs/Galeria/bielRoxoC.png");
+    margin-top: -80px;
+  }
+
+  .g4{
+    background-image: url("../imgs/Galeria/bielVerdeF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g4:hover, .g4.focus-within:hover {
+    background-image: url("../imgs/Galeria/bielVerdeC.png");
+    margin-top: -80px;
+  }
+
+  .g5{
+    background-image: url("../imgs/Galeria/gustaCinzaF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g5:hover, .g5.focus-within:hover {
+    background-image: url("../imgs/Galeria/gustaCinzaC.png");
+    margin-top: -80px;
+  }
+
+  .g6{
+    background-image: url("../imgs/Galeria/gustaVermF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g6:hover, .g6.focus-within:hover {
+    background-image: url("../imgs/Galeria/gustaVermC.png");
+    margin-top: -80px;
+  }
+
+  .g7{
+    background-image: url("../imgs/Galeria/GustaVinF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g7:hover, .g7.focus-within:hover {
+    background-image: url("../imgs/Galeria/GustaVinC.png");
+    margin-top: -80px;
+  }
+
+  .g8{
+    background-image: url("../imgs/Galeria/magraoBrancoF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g8:hover, .g8.focus-within:hover {
+    background-image: url("../imgs/Galeria/magraoBrancoC.png");
+    margin-top: -80px;
+  }
+
+  .g9{
+    background-image: url("../imgs/Galeria/magraoPretoF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g9:hover, .g9.focus-within:hover {
+    background-image: url("../imgs/Galeria/magraoPretoC.png");
+    margin-top: -80px;
+  }
+
+  .g10{
+    background-image: url("../imgs/Galeria/magraoVermF.png");
+    background-repeat: no-repeat;
+  }
+
+  .g10:hover, .g10.focus-within:hover {
+    background-image: url("../imgs/Galeria/magraoVermC.png");
+    margin-top: -80px;
+  }
+
+  .g11{
+    background-image: url("../imgs/Galeria/tenisMagraoNike.png");
+    background-repeat: no-repeat;
+  }
+
+  .g11:hover, .g11.focus-within:hover {
+    margin-top: -80px;
+  }
+
+  .g12{
+    background-image: url("../imgs/Galeria/TenisBielBranco.png");
+    background-repeat: no-repeat;
+  }
+
+  .g12:hover, .g12.focus-within:hover {
+    margin-top: -80px;
+  }
+
+  .g13{
+    background-image: url("../imgs/Galeria/tenisGustaVinho.png");
+    background-repeat: no-repeat;
+  }
+
+  .g13:hover, .g13.focus-within:hover {
+    margin-top: -80px;
+  }
+  
+  .card-teste .focus-content {
+    display: block;
+    padding: 8px 12px;
+  }
+  
+  .card-teste p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .grid-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+
+  .h2-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font: 700;
+    font-style: italic;
+  }
+  /* Footer */
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+  }
+  
